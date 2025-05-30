@@ -1,0 +1,6 @@
+@Ordenes.backend_HostAddress = http://localhost:5152
+
+GET {{Ordenes.backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
