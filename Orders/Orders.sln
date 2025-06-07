@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Backend", "Orders.Backend\Orders.Backend.csproj", "{503430B4-FA60-4DCB-966F-383B7F3DB892}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A745EA57-ADDA-4D5E-9CC8-1F230C21C84E} = {A745EA57-ADDA-4D5E-9CC8-1F230C21C84E}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Frontend", "Orders.Frontend\Orders.Frontend.csproj", "{D756B702-9354-41CA-8557-F9EE2AA16F13}"
 EndProject
